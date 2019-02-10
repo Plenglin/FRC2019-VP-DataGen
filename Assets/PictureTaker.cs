@@ -37,6 +37,6 @@ public class PictureTaker : MonoBehaviour {
             }
         }
         File.WriteAllText("output/README.txt", $"Image name format: angle_distance.png\n" +
-            $"Vertical FOV: {Camera.current.fieldOfView} degrees\n");
+            $"Full (bottom to top) Vertical FOV: {2 * Camera.current.fieldOfView} degrees\n");
     }
 }

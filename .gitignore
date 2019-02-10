@@ -51,4 +51,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 output/
-
+*.zip
